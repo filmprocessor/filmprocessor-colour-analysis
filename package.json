@@ -1,0 +1,37 @@
+{
+  "name": "@filmprocessor/colour-analysis",
+  "version": "0.2.0",
+  "description": "Colour-space transfer functions and precision metrics for decoded image samples.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filmprocessor/filmprocessor-colour-analysis.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "homepage": "https://github.com/filmprocessor/filmprocessor-colour-analysis#readme",
+  "bugs": {
+    "url": "https://github.com/filmprocessor/filmprocessor-colour-analysis/issues"
+  },
+  "keywords": [
+    "colour",
+    "dcp",
+    "pq",
+    "hlg",
+    "image-analysis"
+  ]
+}
